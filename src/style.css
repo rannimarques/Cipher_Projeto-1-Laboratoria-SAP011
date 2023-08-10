@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* CABEÇALHO */
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+
+/* Caixa de deslocamento */
+.caixa-deslocamento {
+    text-align: center;
+    margin: 25px;
+}
+
+#chave-deslocamento {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#btn-anterior, #btn-proximo {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #ACC18A;
+    background-color: #D1EFB5;
+}
+
+/* Caixas de mensagens */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.msg-inicial {
+    text-align: center;
+    margin: 0 50px;
+}
+
+#texto-inicial {
+    background-color: #f2fbe0;
+    border-radius: 30px;
+    padding: 20px;
+    resize: none;´
+}
+
+.msg-final {
+    text-align: center;
+    margin: 0 50px;
+}
+
+#texto-final {
+    background-color: #f2fbe0;
+    border-radius: 30px;
+    padding: 20px;
+    resize: none;
+    height: 230px;
+    width: 350px;
+    text-align: start;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-codif {
+    margin: 0 auto;
+    padding: 7px;
+    border-radius: 20px;
+    border-color: #ACC18A;
+    background-color: #D1EFB5;
+}
+
+.btn-descriptar {
+    margin-right: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    border-color: #ACC18A;
+    background-color: #D1EFB5;
+}
+
+.btn-copiar{
+    margin-left: 150px;
+    padding: 7px;
+    border-radius: 20px;
+    border-color: #ACC18A;
+    background-color: #D1EFB5;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+}
