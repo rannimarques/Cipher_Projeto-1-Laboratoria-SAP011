@@ -67,11 +67,8 @@ function descriptar() {
   textoFinal.innerHTML = resultado;
 }
 
-
 function copiar() {
-  let textoCopiado = textoFinalTeste.value; 
-  textoCopiado.select(); 
-  Document.execCommand("copy"); 
-  alert("o texto copiado é: " + textoCopiado); 
+  const textoCopiado = document.querySelector("#texto-final").innerHTML; 
+  navigator.clipboard.writeText(textoCopiado); 
 }
 
